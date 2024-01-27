@@ -39,12 +39,34 @@ public class PlayerState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.N))
+       
+    }
+
+    public void TakeDamage(int damageAmount)
+    {
+        currentHealth -= damageAmount;
+
+        if(currentHealth <= 0)
         {
-            currentHealth -= 10;
+            print("Player Dead");
+        }
+        else
+        {
+            print("Player Hit");
         }
 
+
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ZombieHand"))
+        {
+            TakeDamage(20);
+        }
+    }
+
+
 }
 
 
