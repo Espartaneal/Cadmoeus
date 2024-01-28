@@ -2231,7 +2231,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488442388}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
+
 --- !u!1 &1626064485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,20 +2338,20 @@ MeshFilter:
   m_GameObject: {fileID: 1626064485}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1704713484
-=======
+
 --- !u!4 &1575565116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 440718, guid: 6488b6e6bbe8a9c4585b531a71d8211c, type: 3}
   m_PrefabInstance: {fileID: 1675950895}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1675950895
->>>>>>> 2270e00cd4fac70344518211dfc17e7112dee8b7
+
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-<<<<<<< HEAD
+
     m_TransformParent: {fileID: 866600428}
     m_Modifications:
     - target: {fileID: 3200898766959751341, guid: 223c3537591534e049ea27729f725c99, type: 3}
@@ -2407,7 +2407,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7862789878572250641, guid: 223c3537591534e049ea27729f725c99, type: 3}
-=======
+
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 134676, guid: 6488b6e6bbe8a9c4585b531a71d8211c, type: 3}
@@ -2463,17 +2463,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 440718, guid: 6488b6e6bbe8a9c4585b531a71d8211c, type: 3}
->>>>>>> 2270e00cd4fac70344518211dfc17e7112dee8b7
+
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-<<<<<<< HEAD
+
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 223c3537591534e049ea27729f725c99, type: 3}
-=======
+
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 440718, guid: 6488b6e6bbe8a9c4585b531a71d8211c, type: 3}
       insertIndex: -1
@@ -2550,7 +2550,7 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
->>>>>>> 2270e00cd4fac70344518211dfc17e7112dee8b7
+
 --- !u!1 &1894446077
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,10 +5355,10 @@ SceneRoots:
   - {fileID: 32461285}
   - {fileID: 922804808}
   - {fileID: 2116260849}
-<<<<<<< HEAD
+
   - {fileID: 866600428}
   - {fileID: 6648721736224633981}
   - {fileID: 314209686}
-=======
+
   - {fileID: 1675950895}
->>>>>>> 2270e00cd4fac70344518211dfc17e7112dee8b7
+
