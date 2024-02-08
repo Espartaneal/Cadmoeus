@@ -37,16 +37,20 @@ public class PlayerState : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public void TakeDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             print("Player Dead");
         }
@@ -55,15 +59,19 @@ public class PlayerState : MonoBehaviour
             print("Player Hit");
         }
 
-
     }
+    
+
+
+
+   
 
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("ZombieHand"))
         {
-            TakeDamage(20);
+            TakeDamage(other.gameObject.GetComponent<ZombieHand1>().damage);
         }
     }
 
