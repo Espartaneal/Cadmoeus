@@ -39,7 +39,7 @@ public class PlayerState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     public void TakeDamage(int damageAmount)
@@ -58,6 +58,7 @@ public class PlayerState : MonoBehaviour
 
     }
 
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("ZombieHand"))
@@ -65,7 +66,6 @@ public class PlayerState : MonoBehaviour
             TakeDamage(20);
         }
     }
-
 
 }
 
