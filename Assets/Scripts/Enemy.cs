@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     private Animator animator;
 
     private NavMeshAgent navAgent;
+    internal bool isDead;
 
     private void Start()
     {
