@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,9 @@ using UnityEngine;
 public class PlayerState : MonoBehaviour
 {
     
+    
+
+
     public static PlayerState Instance { get; set; }
     // ---- Player Health ---- //
     public float currentHealth;
@@ -36,18 +40,9 @@ public class PlayerState : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    
-    
-    
-    
-    
-    
-    
-    
-    
     public void TakeDamage(int damageAmount)
     {
+        flag = true;
         currentHealth -= damageAmount;
 
         if (currentHealth <= 0)
@@ -60,11 +55,11 @@ public class PlayerState : MonoBehaviour
         }
 
     }
-    
 
 
 
-   
+    bool flag = false;
+
 
 
     private void OnTriggerEnter(Collider other)
@@ -73,9 +68,54 @@ public class PlayerState : MonoBehaviour
         {
             TakeDamage(other.gameObject.GetComponent<ZombieHand1>().damage);
         }
+
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Update is called once per frame
+    public void Update()
+    {
+        if (flag)
+        {
+            currentHealth -= 20;
+        }
+    }
+
+
+
 }
+
+
+        
+
+
+
+
+
+   
+       
+        
+
+
+    
+
+
+
+
+
 
 
 
