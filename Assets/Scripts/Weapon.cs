@@ -97,9 +97,9 @@ public class Weapon : MonoBehaviour
 
             }
 
-            if (AmmoManager.Instance.ammodisplay != null)
+            
         {
-            AmmoManager.Instance.ammodisplay.text = $"{bulletsLeft/bulletsPerBurst}/{magazineSize/bulletsPerBurst}";
+            
 
         }
 
